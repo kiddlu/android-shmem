@@ -15,7 +15,8 @@
 #else
 #include <sys/shm.h>
 
-#define DBG(format, ...) fprintf(stderr, format "\n", __VA_ARGS__)
+//#define DBG(format, ...) fprintf(stderr, format "\n", __VA_ARGS__)
+#define DBG(format, ...)  
 #endif
 
 #include "libancillary/ancillary.h"
